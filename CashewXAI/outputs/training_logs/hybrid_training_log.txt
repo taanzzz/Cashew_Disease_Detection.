@@ -1,0 +1,22 @@
+Training hybrid_cnn_transformer on cuda...
+Epoch 1/10 - Loss: 0.3217, Acc: 0.8975
+Saved best checkpoint to: /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/hybrid_cnn_transformer_best.pth
+Epoch 2/10 - Loss: 0.1257, Acc: 0.9627
+Saved best checkpoint to: /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/hybrid_cnn_transformer_best.pth
+Epoch 3/10 - Loss: 0.0927, Acc: 0.9722
+Saved best checkpoint to: /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/hybrid_cnn_transformer_best.pth
+Epoch 4/10 - Loss: 0.0716, Acc: 0.9786
+Saved best checkpoint to: /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/hybrid_cnn_transformer_best.pth
+Epoch 5/10 - Loss: 0.0648, Acc: 0.9800
+Saved best checkpoint to: /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/hybrid_cnn_transformer_best.pth
+Epoch 6/10 - Loss: 0.0444, Acc: 0.9847
+Saved best checkpoint to: /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/hybrid_cnn_transformer_best.pth
+Epoch 7/10 - Loss: 0.0436, Acc: 0.9850
+Saved best checkpoint to: /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/hybrid_cnn_transformer_best.pth
+Epoch 8/10 - Loss: 0.0305, Acc: 0.9885
+Saved best checkpoint to: /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/hybrid_cnn_transformer_best.pth
+Epoch 9/10 - Loss: 0.0298, Acc: 0.9902
+Saved best checkpoint to: /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/hybrid_cnn_transformer_best.pth
+Epoch 10/10 - Loss: 0.0287, Acc: 0.9898
+
+Hybrid Model Training Complete! Best Accuracy: 0.9902

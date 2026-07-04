@@ -1,0 +1,14 @@
+Generating predictions for evaluation...
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+ anthracnose       1.00      0.98      0.99      1729
+     gumosis       1.00      1.00      1.00       392
+     healthy       0.99      1.00      1.00      1368
+  leaf miner       0.99      1.00      0.99      1378
+    red rust       1.00      1.00      1.00      1682
+
+    accuracy                           0.99      6549
+   macro avg       1.00      1.00      1.00      6549
+weighted avg       0.99      0.99      0.99      6549

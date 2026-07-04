@@ -1,0 +1,33 @@
+# =============================================================================
+# Multi-XAI Hybrid CNN-Transformer Framework for Cashew Disease Detection
+# Python Dependencies
+# =============================================================================
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+timm>=0.9.0
+
+# Image Processing & Augmentation
+albumentations>=1.3.0
+opencv-python-headless>=4.8.0
+
+# Explainable AI (XAI)
+grad-cam>=1.4.0
+lime>=0.2.0
+shap>=0.42.0
+
+# Scientific Computing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Dataset Management
+kagglehub>=0.2.0
+
+# Google Colab (optional — only needed in Colab environment)
+# google-colab

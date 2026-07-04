@@ -1,0 +1,16 @@
+WARNING:timm.models._builder:Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Model loaded successfully! ✅
+--- Real World Prediction Results ---
+Image	Predicted	Confidence
+0	anthracnose488_.jpg	anthracnose	99.89%
+1	anthracnose1009_.jpg	anthracnose	99.61%
+2	anthracnose122_.jpg	anthracnose	98.81%
+3	anthracnose865_.jpg	anthracnose	99.99%
+4	anthracnose1718_.jpg	anthracnose	99.99%
+5	anthracnose678_.jpg	anthracnose	99.98%
+6	anthracnose465_.jpg	anthracnose	99.63%
+7	anthracnose1107_.jpg	anthracnose	99.99%
+8	anthracnose202_.jpg	anthracnose	100.00%
+9	anthracnose1620_.jpg	anthracnose	99.94%

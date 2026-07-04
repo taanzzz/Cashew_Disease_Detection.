@@ -1,0 +1,80 @@
+Initializing resnet50...
+Training cnn_resnet50 on cuda...
+Epoch 1/5 - Loss: 1.0610, Acc: 0.6125
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_resnet50_best.pth
+Epoch 2/5 - Loss: 0.2874, Acc: 0.9206
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_resnet50_best.pth
+Epoch 3/5 - Loss: 0.1882, Acc: 0.9440
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_resnet50_best.pth
+Epoch 4/5 - Loss: 0.1560, Acc: 0.9513
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_resnet50_best.pth
+Epoch 5/5 - Loss: 0.1314, Acc: 0.9615
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_resnet50_best.pth
+
+Initializing densenet121...
+model.safetensors: 100%
+ 32.3M/32.3M [00:01<00:00, 62.4MB/s]
+Training cnn_densenet121 on cuda...
+Epoch 1/5 - Loss: 0.4460, Acc: 0.8629
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_densenet121_best.pth
+Epoch 2/5 - Loss: 0.1608, Acc: 0.9527
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_densenet121_best.pth
+Epoch 3/5 - Loss: 0.1235, Acc: 0.9630
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_densenet121_best.pth
+Epoch 4/5 - Loss: 0.0965, Acc: 0.9714
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_densenet121_best.pth
+Epoch 5/5 - Loss: 0.0814, Acc: 0.9754
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_densenet121_best.pth
+
+Initializing efficientnet_b0...
+model.safetensors: 100%
+ 21.4M/21.4M [00:01<00:00, 56.8MB/s]
+Training cnn_efficientnet_b0 on cuda...
+Epoch 1/5 - Loss: 0.6465, Acc: 0.8320
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_efficientnet_b0_best.pth
+Epoch 2/5 - Loss: 0.2090, Acc: 0.9362
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_efficientnet_b0_best.pth
+Epoch 3/5 - Loss: 0.1433, Acc: 0.9537
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_efficientnet_b0_best.pth
+Epoch 4/5 - Loss: 0.1000, Acc: 0.9673
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_efficientnet_b0_best.pth
+Epoch 5/5 - Loss: 0.0712, Acc: 0.9782
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_efficientnet_b0_best.pth
+
+Initializing vgg16...
+model.safetensors: 100%
+ 553M/553M [00:05<00:00, 138MB/s]
+Training cnn_vgg16 on cuda...
+Epoch 1/5 - Loss: 0.3210, Acc: 0.8959
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_vgg16_best.pth
+Epoch 2/5 - Loss: 0.2002, Acc: 0.9414
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_vgg16_best.pth
+Epoch 3/5 - Loss: 0.1366, Acc: 0.9560
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_vgg16_best.pth
+Epoch 4/5 - Loss: 0.1345, Acc: 0.9576
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_vgg16_best.pth
+Epoch 5/5 - Loss: 0.1190, Acc: 0.9632
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_vgg16_best.pth
+
+Initializing mobilenetv3_large_100...
+model.safetensors: 100%
+ 22.1M/22.1M [00:01<00:00, 22.0MB/s]
+Training cnn_mobilenetv3_large_100 on cuda...
+Epoch 1/5 - Loss: 0.5571, Acc: 0.8423
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_mobilenetv3_large_100_best.pth
+Epoch 2/5 - Loss: 0.2159, Acc: 0.9356
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_mobilenetv3_large_100_best.pth
+Epoch 3/5 - Loss: 0.1488, Acc: 0.9530
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_mobilenetv3_large_100_best.pth
+Epoch 4/5 - Loss: 0.1036, Acc: 0.9673
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_mobilenetv3_large_100_best.pth
+Epoch 5/5 - Loss: 0.0742, Acc: 0.9748
+Saved best model to /content/drive/MyDrive/Cashew_XAI_Project/checkpoints/cnn_mobilenetv3_large_100_best.pth
+
+--- CNN Baseline Results ---
+                   Model  Best_Train_Acc
+0               resnet50        0.961521
+1            densenet121        0.975416
+2        efficientnet_b0        0.978165
+3                  vgg16        0.963200
+4  mobilenetv3_large_100        0.974805
