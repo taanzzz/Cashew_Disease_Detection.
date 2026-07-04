@@ -292,13 +292,13 @@ Source: outputs/training_logs/evaluation_report.txt
 
 ### 6.5 Confusion Matrix Analysis
 
-![Confusion Matrix](outputs/figures/confusion_matrix.png)
+![Confusion Matrix](CashewXAI/outputs/figures/confusion_matrix.png)
 
 The confusion matrix visualizes the classification performance across all five disease categories. The strong diagonal dominance confirms that the vast majority of predictions are correct, with only minimal off-diagonal confusion. The Gumosis and Red Rust classes show zero misclassifications, while Anthracnose shows marginal confusion with other classes, consistent with the recall value of 0.98.
 
 ### 6.6 Performance Comparison Across Architectures
 
-![Performance Comparison](outputs/figures/comparison.png)
+![Performance Comparison](CashewXAI/outputs/figures/comparison.png)
 
 This bar chart provides a direct visual comparison of all 11 trained models across three architecture families:
 
@@ -401,7 +401,7 @@ To ensure transparency and build trust in the model's predictions, four compleme
 
 **Gradient-weighted Class Activation Mapping** generates coarse heatmaps by computing the gradient of the target class score with respect to the final convolutional feature maps.
 
-![Grad-CAM Heatmap](outputs/figures/gradcam_heatmap.png)
+![Grad-CAM Heatmap](CashewXAI/outputs/figures/gradcam_heatmap.png)
 
 **Interpretation:** The heatmap highlights the regions of the leaf image that most influenced the model's classification decision. Warmer colors (red/orange) indicate higher importance. For diseased leaves, the heatmap correctly focuses on lesion areas, confirming the model relies on disease-specific visual features rather than background artifacts.
 
@@ -417,7 +417,7 @@ To ensure transparency and build trust in the model's predictions, four compleme
 
 **SHapley Additive Explanations** provides mathematically rigorous feature attributions based on cooperative game theory, ensuring that the contribution of each feature (pixel region) is fairly distributed.
 
-![SHAP Explanation](outputs/figures/shap_explanation.png)
+![SHAP Explanation](CashewXAI/outputs/figures/shap_explanation.png)
 
 Due to computational constraints in the Colab free tier, SHAP was run with `nsamples=20` using the GradientExplainer, which approximates Shapley values through gradient-based sampling.
 
@@ -428,14 +428,14 @@ Predicted: anthracnose
 
 ### 7.5 XAI Comparison
 
-![Grad-CAM++ & LIME Comparison](outputs/figures/gradcam_pp_lime.png)
+![Grad-CAM++ & LIME Comparison](CashewXAI/outputs/figures/gradcam_pp_lime.png)
 
 The combined Grad-CAM++ and LIME visualization allows direct comparison between the two explanation methods:
 - **Grad-CAM++** produces smooth, continuous heatmaps highlighting class-discriminative regions.
 - **LIME** generates superpixel-level masks showing which local patches support or oppose the predicted class.
 - The two methods show strong agreement, both localizing to similar disease-affected regions, providing cross-validated interpretability.
 
-![Master XAI Comparison](outputs/figures/xai_comparison_master.png)
+![Master XAI Comparison](CashewXAI/outputs/figures/xai_comparison_master.png)
 
 ---
 
